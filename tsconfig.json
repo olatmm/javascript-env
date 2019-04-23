@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "types": ["node", "lodash", "express"]
+    },
+    "files": [
+        "./src/app.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
